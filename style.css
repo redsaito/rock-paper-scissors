@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffd523;
+}
+
+h1 {
+  text-align: center;
+  margin-block: 1em;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 {
+  margin-inline: 5em;
+  margin-block: 2em;
+  gap: 0.5em;
+}
+
+.cols {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  aspect-ratio: 1;
+  background: white;
+  text-align: center;
+  padding: 0.4em;
+}
+.cols > img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.inner-images {
+  width: 100%;
+}
+
+.represent-container {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+.represent-container :nth-child(1) {
+  color: #0078d7;
+  text-decoration: overline;
+}
+.represent-container :nth-child(2) {
+  color: #e81224;
+  text-decoration: overline;
+}
+
+.container-2 {
+  flex-direction: column;
+  background-color: #595260;
+  color: white;
+  width: 60vw;
+  max-width: 20em;
+  aspect-ratio: 1;
+  margin: auto;
+}
+
+h2 {
+  margin-block: 0.4em;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+.container-2 button {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 1.2em;
+  padding-inline: 0.8em;
+  padding-block: 0.4em;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.container-2 button:hover {
+  background-color: rgb(25, 25, 25);
+}
+.container-2 button:active {
+  opacity: 0.8;
+}
+
+.container-1 .blue-border {
+  border: 4px solid #0078d7;
+}
+.container-1 .red-border {
+  border: 4px solid #e81224;
+}
+.container-1 .green-border {
+  border: 4px solid #09ac09;
+}
